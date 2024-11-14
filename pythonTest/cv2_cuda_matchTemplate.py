@@ -11,7 +11,7 @@ import cv2
 import time
 
 # Load the frame and template images
-frame = cv2.imread("../input_imgs/helmets_template.jpg")
+frame = cv2.imread("../input_imgs/frame.jpg")
 template = cv2.imread("../input_imgs/template.jpg")
 
 # Ensure images are in 8-bit unsigned 3-channel format (CV_8UC3)

@@ -9,7 +9,7 @@
 
 int main() {
     // Load images
-    cv::Mat frame = cv::imread("..\\..\\input_imgs\\helmets_template.jpg");
+    cv::Mat frame = cv::imread("..\\..\\input_imgs\\frame.jpg");
     cv::Mat template_img = cv::imread("..\\..\\input_imgs\\template.jpg");
 
     if (frame.empty() || template_img.empty()) {
