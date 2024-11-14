@@ -85,16 +85,7 @@ AttributeError: partially initialized module 'cv2' has no attribute 'gapi_wip_gs
 Only after add_dll_directory we import cv and ultralytics
 
 
-## creating python package (dll) .pyd:
-
-project -> properties: General, Configuration Type: .dll
-
-Linker -> General, Output File: $(OutDir)$(TargetName).pyd
-
-"ImportError: dynamic module does not define module export function (PyInit_vmd_lib)" - after building .pyd (dll) with visual studio 2019
-
-
-### c++ on vscode
+## c++ on vscode
 
 open vs code, install extensions: c/c++ and cmake tools, might need to restart
 first time, press ctrl+shift+p for command pallete and search cmake:configure, choose vs 2019 86 x64.
