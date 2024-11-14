@@ -1,11 +1,5 @@
 #include <opencv2/opencv.hpp>
 #include <opencv2/cudaimgproc.hpp>
-#include <opencv2/cudafilters.hpp>
-#include <opencv2/cudaarithm.hpp>
-#include <opencv2/cudawarping.hpp>
-#include <opencv2/cudacodec.hpp>
-#include <chrono>
-#include <iostream>
 
 int main() {
     // Load images
