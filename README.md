@@ -60,6 +60,36 @@ C:\opencv\install\x64\vc16\bin
 C:\opencv\install\x64\vc16\lib
 
 
+## Cuda includes and libs are added here as an example but not necessarily used.
+
+
+### vs2019 make sure x64 and Release
+
+
+## Adding includes and libraries of opencv with cuda
+
+right click on the project -> properties:
+1. On top set Configuration: Active(Release), Platform: Active(x64)
+2. Configuration properties -> C/C++:
+include Directories -> scroll down -> edit -> create new line (small little folder icon on the top-right) -> 
+C:\opencv\install\include ; C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include\
+
+press Ok, Apply
+
+3. Configuration properties -> Linker (The dirs that contains what we will use next: opencv_world455.lib, cudart.lib, nppist.lib):
+General -> Additional Include Directories -> 
+C:\opencv\install\x64\vc16\lib ; C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib\x64
+
+Input -> Additional dependencies -> scroll down -> edit, add opencv_worldxxx.lib (or whatever opencv version opencv_world4100.lib you have in C:\opencv\install\x64\vc16\lib, or any other place you built opencv with cuda)
+
+Optional-not use here: For cuda I also added:
+cudart.lib
+nppist.lib
+(add any other lib you need)
+
+press Apply
+
+
 
 ## python cv2 (vscode on windows)
 
