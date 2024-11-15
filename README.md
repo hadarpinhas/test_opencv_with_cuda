@@ -1,7 +1,7 @@
 
 # This repo contains test in python and c++ of opencv with cuda
 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0">
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0" alt="Recent Article 0"> 
 
 
 ## Prerequisites
