@@ -5,14 +5,22 @@
 
 
 ## Prerequisites
-CMake (add to PATH during installation)
-CUDA Toolkit (version 11.8 recommended for this setup)
+
+- CMake (add to PATH during installation)
+- CUDA Toolkit (version 11.8 recommended for this setup)
+
 Opencv 4.10.0
+
 optional: cuDNN (version 9.1.1, specifically for CUDA 11.8)
+
 Visual Studio 2019 (or later) for C++ compilation
+
 Python 3.10.11
+
 Windows 10 Home
+
 NVIDIA GeForce GTX 1050 4GB
+
 
 # Windows installation opencv cuda cpp instructions
 
@@ -23,13 +31,21 @@ C:\Program Files\NVIDIA\CUDNN\v9.1\bin\11.8
 C:\Program Files\NVIDIA\CUDNN\v9.1\include\11.8
 C:\Program Files\NVIDIA\CUDNN\v9.1\lib\11.8\x64
 
+
 download opencv and opencv-contrib (zip and then extracted them), whichever version you want (ultralytics required at least 4.6 on Nov-2024), I rebuild from 4.5.5 to 4.10.0: 
+
 https://github.com/opencv/opencv
+
 https://github.com/opencv/opencv_contrib
+
 I downloaded to C:\Users\hadar\Downloads\opencvDownloads. make sure the opencv-4.10.0 does not contain opencv-4.10.0 which happens when extracting optionally into opencv-4.10.0.
 
+
+
 open cmake gui
+
 Browse source: "C:\Users\hadar\Downloads\opencvDownloads\opencv-4.10.0"
+
 browse build: C:\opencv
 
 press configure: 
