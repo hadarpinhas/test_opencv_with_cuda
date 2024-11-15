@@ -13,7 +13,7 @@
 - Visual Studio 2019 (or later) for C++ compilation
 - Python 3.10.11
 - Windows 10 Home
-- NVIDIA GeForce GTX 1050 4GB
+- GPU - mine is NVIDIA GeForce GTX 1050 4GB
 
 
 # Windows installation opencv cuda cpp instructions
