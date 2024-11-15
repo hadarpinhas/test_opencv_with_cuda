@@ -1,6 +1,18 @@
 
 # This repo contains test in python and c++ of opencv with cuda
 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0" alt="Recent Article 0"> 
+
+
+## Prerequisites
+CMake (add to PATH during installation)
+CUDA Toolkit (version 11.8 recommended for this setup)
+Opencv 4.10.0
+optional: cuDNN (version 9.1.1, specifically for CUDA 11.8)
+Visual Studio 2019 (or later) for C++ compilation
+Python 3.10.11
+Windows 10 Home
+NVIDIA GeForce GTX 1050 4GB
 
 # Windows installation opencv cuda cpp instructions
 
