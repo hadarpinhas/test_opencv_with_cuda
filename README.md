@@ -1,7 +1,7 @@
 
 # This repo contains test in python and c++ of opencv with cuda
 
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0" alt="Recent Article 0"> 
+<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@Hadar Pinhas/0">
 
 
 ## Prerequisites
@@ -127,7 +127,7 @@ AttributeError: partially initialized module 'cv2' has no attribute 'gapi_wip_gs
 Only after add_dll_directory we import cv and ultralytics
 
 
-## c++ on vscode
+## optional: c++ on vscode (with CMakeLists.txt)
 
 open vs code, install extensions: c/c++ and cmake tools, might need to restart
 first time, press ctrl+shift+p for command pallete and search cmake:configure, choose vs 2019 86 x64.
