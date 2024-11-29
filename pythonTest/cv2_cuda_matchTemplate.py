@@ -1,11 +1,11 @@
 
 ## This code compares the execution time of template matching on the CPU and GPU
 
-import os 
-# To add CUDA and cuDNN DLLs to the path an opencv binary directory
-os.add_dll_directory(r"C:\Program Files\NVIDIA\CUDNN\v9.1\bin\11.8")  # For cuDNN DLLs
-os.add_dll_directory(r"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin")  # For cuda DLLs
-os.add_dll_directory(r"C:\opencv\install\x64\vc16\bin")  # For OpenCV DLLs
+# import os 
+# # To add CUDA and cuDNN DLLs to the path an opencv binary directory
+# os.add_dll_directory(r"C:\Program Files\NVIDIA\CUDNN\v9.1\bin\11.8")  # For cuDNN DLLs
+# os.add_dll_directory(r"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin")  # For cuda DLLs
+# os.add_dll_directory(r"C:\opencv\install\x64\vc16\bin")  # For OpenCV DLLs
 
 import cv2
 import time
@@ -67,3 +67,5 @@ bottom_right_gpu = (top_left_gpu[0] + w, top_left_gpu[1] + h)
 result_frame_gpu = frame.copy()
 cv2.rectangle(result_frame_gpu, top_left_gpu, bottom_right_gpu, (255, 0, 0), 2)
 cv2.imwrite("results/matched_result_gpu.jpg", result_frame_gpu)
+
+print(f"Results saved to 'results/matched_result_cpu.jpg' and 'results/matched_result_gpu.jpg'")
