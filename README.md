@@ -1,8 +1,8 @@
 
 # This repo contains test in python and c++ of opencv with cuda
-
+## meduim article (click image):
 <a target="_blank" href="https://medium.com/@hadarpinhas/a-complete-guide-to-setting-up-opencv-with-cuda-on-windows-python-and-c-integration-847e986f2c34">
-<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*sJtCqjdDH9udsBdfjho8Dg.jpeg" alt="Recent Article 1"> 
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*sJtCqjdDH9udsBdfjho8Dg.jpeg"> 
 
 ## run with python in vscode
 
