@@ -30,8 +30,11 @@ python cv2_cuda_matchTemplate.py
 Install CMake (during installation choose add to path or after add to system environmental variable, cmake:  C:\Program Files\CMake\bin)
 
 Trying to install cuda 11.8 with cudnn 9.1.1 installer (in the installer only 11.8) and adding to path the bin dir.
-from the archive: https://developer.nvidia.com/cuda-toolkit-archive.
+
+From the archive: https://developer.nvidia.com/cuda-toolkit-archive:
+
 I chose 11.8: https://developer.nvidia.com/cuda-11-8-0-download-archive.
+
 cudnn I chose 9.1.1: https://developer.nvidia.com/cudnn-9-1-1-download-archive
 
 add to path:
