@@ -38,8 +38,11 @@ I chose 11.8: https://developer.nvidia.com/cuda-11-8-0-download-archive.
 cudnn I chose 9.1.1: https://developer.nvidia.com/cudnn-9-1-1-download-archive
 
 add to path:
+
 C:\Program Files\NVIDIA\CUDNN\v9.1\bin\11.8
+
 C:\Program Files\NVIDIA\CUDNN\v9.1\include\11.8
+
 C:\Program Files\NVIDIA\CUDNN\v9.1\lib\11.8\x64
 
 
