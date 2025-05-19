@@ -29,13 +29,18 @@ python cv2_cuda_matchTemplate.py
 
 Install CMake (during installation choose add to path or after add to system environmental variable, cmake:  C:\Program Files\CMake\bin)
 
-Trying to install cuda 11.8 with cudnn 9.1.1 installer (in the installer only 11.8) and adding to path the bin dir:
+Trying to install cuda 11.8 with cudnn 9.1.1 installer (in the installer only 11.8) and adding to path the bin dir.
+from the archive: https://developer.nvidia.com/cuda-toolkit-archive.
+I chose 11.8: https://developer.nvidia.com/cuda-11-8-0-download-archive.
+cudnn I chose 9.1.1: https://developer.nvidia.com/cudnn-9-1-1-download-archive
+
+add to path:
 C:\Program Files\NVIDIA\CUDNN\v9.1\bin\11.8
 C:\Program Files\NVIDIA\CUDNN\v9.1\include\11.8
 C:\Program Files\NVIDIA\CUDNN\v9.1\lib\11.8\x64
 
 
-download opencv and opencv-contrib (zip and then extracted them), whichever version you want (ultralytics required at least 4.6 on Nov-2024), I rebuild from 4.5.5 to 4.10.0: 
+download opencv and opencv-contrib (click on the 4.x to Switch branches->tags and then the tab 4.10.0, then download zip and extract them), whichever version you want (ultralytics required at least 4.6 on Nov-2024), I rebuild from 4.5.5 to 4.10.0: 
 
 https://github.com/opencv/opencv
 
